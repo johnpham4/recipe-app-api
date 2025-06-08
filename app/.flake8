@@ -1,8 +1,7 @@
-{flake8}
-# không bao gồm linting
+[flake8]
 exclude = 
     migrations,
     __pycache__,
     manage.py,
     settings.py
-
+max-line-length = 100
