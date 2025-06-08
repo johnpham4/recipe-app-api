@@ -2,7 +2,6 @@
 name: Checks
  
 on: [push]
-workflow_dispatch:
  
 jobs:
   test-lint:
