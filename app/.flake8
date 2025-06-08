@@ -1,0 +1,8 @@
+{flake8}
+# không bao gồm linting
+exclude = 
+    migrations,
+    __pycache__,
+    manage.py,
+    settings.py
+
